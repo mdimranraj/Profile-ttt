@@ -1,0 +1,29 @@
+/* font-family: 'Cairo', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+.postsTabContainer {
+    position: relative;
+    margin: 50px 0 0;
+    border-top: 1px solid grey;
+    background-color: white;
+}
+
+.postsTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100px;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 5px;
+    height: 30px;
+    top: -28px;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}

@@ -1,0 +1,36 @@
+.mainContainer {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+}
+
+.mainContainer img {
+    margin: 0 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 12px;
+}
+
+@media (min-width: 420px) {
+    .text {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 15px;
+    }
+    .mainContainer img {
+        width: 30px;
+        height: 30px;
+    }
+}

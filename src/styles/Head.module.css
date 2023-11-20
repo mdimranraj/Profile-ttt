@@ -1,0 +1,120 @@
+.mainContainer {}
+
+.bgPhotoDiv {
+    position: relative;
+}
+
+.bgPic {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bgPic img {
+    width: 100vw;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profileInfoContainer {
+    width: 100%;
+    z-index: 10;
+    position: static;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 180px;
+}
+
+.profilePic {
+    border: 2px solid grey;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profilePic img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.nameIcon {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.details h3 {
+    font-size: max(20px, 2vw);
+}
+
+.number {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer {
+    color: #585858;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.footer h4 {
+    font-size: max(20px, 2vw);
+}
+
+.insta a {
+    color: #24c5c5;
+}
+
+.reachDiv {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconText {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.iconText p {
+    font-size: 13px;
+    font-weight: 500;
+}

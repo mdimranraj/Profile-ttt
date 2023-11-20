@@ -5,8 +5,8 @@ const Footer = () => {
     <div className={styles.mainContainer}>
       <div className={styles.text}>© Made by MD IMRAN RAJ</div>
       <div>
-        <img src="./instagram.png" alt="" />
-        <img src="./linkedin.png" alt="" />
+        <a href="http://www.instagram.com/mdimranraj"><img src="./instagram.png" alt="" /></a>
+        <a href="https://www.linkedin.com/in/md-imran-raj-952659201/"><img src="./linkedin.png" alt="" /></a>
       </div>
     </div>
   );

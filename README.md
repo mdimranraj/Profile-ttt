@@ -1,6 +1,9 @@
 ## Hosted Website Link 
 https://profile-ttt.vercel.app
 
+## Libraries
+No external NPM libraries have been used.
+
 ## Directory Structure
  ### Public Folder
 
